@@ -1,0 +1,12 @@
+<nav>
+    <div class="header-container">
+  <img class="header-logo" src="sfLogo.png" alt="IBM logo" onclick={{action "refreshApp"}}>
+  <div class="logo">Ember Demo</div>
+  <ul class="nav-links">
+    {{!-- <li class="nav-link-item"><LinkTo class="header-link" @route="user-management" onclick={alert("sssssss")} >User Management</LinkTo></li> --}}
+    <li class="nav-link-item"><LinkTo class="header-link" @route="user-mgmt" >User Management</LinkTo></li>
+    <li class="nav-link-item"><LinkTo class="header-link" @route="contact-flow" >Contact Flows</LinkTo></li>
+    <li class="nav-link-item"><LinkTo class="header-link" @route="routing-profile" >Routing Profiles</LinkTo></li>
+  </ul>
+    </div>
+</nav>

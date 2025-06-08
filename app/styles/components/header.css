@@ -1,0 +1,38 @@
+.header-container {
+    width: 100%;
+    display: flex;
+    background-color: rgb(49, 47, 47);
+    /* padding: 0 20px; */
+  }
+
+  .header-logo {
+    width: 50px;
+    height: 50px;
+    cursor:pointer;
+  }
+
+  .logo {
+    align-self: center;
+    color: white;
+  }
+
+  .nav-links {
+    list-style: none;
+    display: flex;
+    margin-left: 30%;
+    align-items: end;
+    font-family: sans-serif;
+    /* padding: 10px; */
+  }
+
+  .nav-link-item {
+    color: white;
+    margin-right: 30px;
+    padding: 0 50px 0 50px;
+    /* padding-right: 5px; */
+  }
+
+  .header-link {
+    color: white !important;
+    text-decoration: none;
+  }
