@@ -1,0 +1,9 @@
+<div class="search-field-container">
+  <SearchField @search={{this.searchItems}} />
+</div>
+
+{{#if this.showTable}}
+  <div class="table-container">
+    <TableComponent @data={{this.randomData}} />
+  </div>
+{{/if}}

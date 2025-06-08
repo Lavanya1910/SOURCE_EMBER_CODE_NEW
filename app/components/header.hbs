@@ -1,0 +1,12 @@
+<nav>
+    <div class="header-container">
+  <img class="header-logo" src="sfLogo.png" alt="IBM logo" onclick={{action "refreshApp"}}>
+  <div class="logo"> IBM Ember POC</div>
+  <ul class="nav-links">
+    {{!-- <li class="nav-link-item"><LinkTo class="header-link" @route="user-management" onclick={alert("sssssss")} >LLM Search Management</LinkTo></li> --}}
+    <li class="nav-link-item"><LinkTo class="header-link" @route="user-mgmt" >LLM Search</LinkTo></li>
+    <li class="nav-link-item"><LinkTo class="header-link" @route="contact-flow" >LLM Grid</LinkTo></li>
+    <li class="nav-link-item"><LinkTo class="header-link" @route="routing-profile" >LLM Views</LinkTo></li>
+  </ul>
+    </div>
+</nav>
